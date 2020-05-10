@@ -1,6 +1,8 @@
 from joblib import load
 import pandas as pd
 
+# note all training was done in the jupyter notebook "training.ipynb." It also contains my process for getting to my model.
+
 def predict_from_csv(path_to_csv):
 
     df = pd.read_csv(path_to_csv)
